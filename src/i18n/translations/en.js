@@ -186,7 +186,7 @@ export const translations = {
         description: 'High-quality carpentry services for both interior and exterior projects'
       },
       renovations: {
-        title: 'Renovations and Extensions',
+        title: 'Extensions & Renovations',
         description: 'Complete renovation and extension services to transform your home or business'
       },
       sustainability: {
@@ -378,7 +378,7 @@ export const translations = {
   // Service Detail Pages
   services: {
     renovaties: {
-      title: 'Renovations',
+      title: 'Extensions & Renovations',
       descriptionTitle: 'Complete Renovation Solutions',
       description:
         'A renovation gives your home a new life. Whether you want to refresh a single room or plan a complete remodel, we guide you from start to finish. With an eye for detail and respect for the existing structure, we realize your dream project.',
@@ -493,7 +493,7 @@ export const translations = {
       buitenconstructies: 'Outdoor Constructions',
       dakwerken: 'Roofing',
       timmerwerk: 'Carpentry',
-      renovaties: 'Renovations',
+      renovaties: 'Extensions & Renovations',
       verduurzaming: 'Sustainability',
       houtConstructies: 'Wood Constructions'
     },

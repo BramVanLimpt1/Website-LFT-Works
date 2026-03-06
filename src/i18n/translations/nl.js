@@ -179,7 +179,7 @@ export const translations = {
     services: {
       heading: 'Onze Diensten',
       renovations: {
-        title: 'Ver- en aanbouw',
+        title: 'Ver- en aanbouwen',
         description: 'Complete ver- en aanbouwoplossingen voor uw woning of bedrijfspand'
       },
       roofing: {
@@ -368,7 +368,7 @@ export const translations = {
   // Service Detail Pages
   services: {
     renovaties: {
-      title: 'Ver- en aanbouw',
+      title: 'Ver- en aanbouwen',
       descriptionTitle: 'Complete renovatieoplossingen',
       description:
         'Een renovatie geeft uw woning een nieuw leven. Of u nu een enkele ruimte wilt vernieuwen of een complete verbouwing plant, wij begeleiden u van begin tot eind. Met oog voor detail en respect voor de bestaande structuur realiseren wij uw droomproject.',
@@ -476,7 +476,7 @@ export const translations = {
     // Category labels
     categories: {
       all: 'Alle Projecten',
-      renovaties: 'Ver- en aanbouw',
+      renovaties: 'Ver- en aanbouwen',
       dakwerken: 'Dakwerken',
       timmerwerk: 'Timmerwerk',
       verduurzaming: 'Verduurzaming',

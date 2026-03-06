@@ -3,7 +3,7 @@
 
 export const services = [
   {
-    slug: 'renovaties', // Moet als eerst zictbaar zijn ook in dropdown!
+    slug: 'ver-en-aanbouwen',
     titleKey: 'services.renovaties.title',
     icon: 'tabler-paint',
     heroImage: '/assets/temp/placeholder.png',
@@ -49,7 +49,7 @@ export const services = [
     descriptionImage: '/assets/services/timmerwerk/description.jpeg',
     features: ['services.timmerwerk.features.f1', 'services.timmerwerk.features.f2', 'services.timmerwerk.features.f3'],
     featureImage: '/assets/services/timmerwerk/feature.jpeg',
-    relatedCategories: ['timmerwerk'] // Not yet ready for linking, so empty category to avoid showing any projects for now
+    relatedCategories: ['timmerwerk']
   },
   {
     slug: 'verduurzaming',
@@ -69,7 +69,7 @@ export const services = [
     relatedCategories: ['verduurzaming']
   },
   {
-    slug: 'houtConstructies',
+    slug: 'hout-constructies',
     titleKey: 'services.houtConstructies.title',
     icon: 'tabler-wall',
     heroImage: '/assets/temp/placeholder.png',
@@ -112,14 +112,14 @@ export const serviceProcessSteps = {
 };
 
 export const servicesNavigationData = {
-  heading: 'services.navigation.heading',
-  // caption: 'services.navigation.caption',
+  headingKey: 'services.navigation.heading',
+  // captionKey: 'services.navigation.caption',
   list: services.map((service) => ({
     icon: service.icon,
-    title: service.titleKey,
-    content: `services.${service.slug}.descriptionTitle`,
+    titleKey: service.titleKey,
+    descriptionKey: service.descriptionTitleKey,
     link: {
-      href: `/services/${service.slug}`,
+      href: `/diensten/${service.slug}`,
       children: 'common.learnMore'
     }
   }))

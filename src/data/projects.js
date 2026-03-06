@@ -2,7 +2,7 @@ export const projects = [
   {
     // General project info
     id: 'project-1',
-    slug: 'project-1',
+    slug: 'kaprenovatie-hooge-mierde',
     location: 'Hooge Mierde',
     year: 2026,
     categories: ['dakwerken'],
@@ -36,7 +36,7 @@ export const projects = [
   {
     // General project info
     id: 'project-2',
-    slug: 'project-2',
+    slug: 'gevelbekleding-bladel',
     location: 'Bladel',
     year: 2026,
     categories: ['timmerwerk'],
@@ -64,7 +64,7 @@ export const projects = [
   {
     // General project info
     id: 'project-3',
-    slug: 'project-3',
+    slug: 'overkapping-tuinkamer-schijndel',
     year: 2025,
     categories: ['houtConstructies', 'renovaties'],
     isHighlighted: false,
@@ -91,7 +91,7 @@ export const projects = [
   {
     // General project info
     id: 'project-4',
-    slug: 'project-4',
+    slug: 'verduurzamen-platdak-hilvarenbeek',
     location: 'Hilvarenbeek',
     year: 2025,
     categories: ['verduurzaming'],
@@ -120,7 +120,7 @@ export const projects = [
   {
     // General project info
     id: 'project-5',
-    slug: 'project-5',
+    slug: 'douglas-overkapping-lage-mierde',
     location: 'Lage Mierde',
     year: 2024,
     categories: ['verduurzaming', 'houtConstructies', 'timmerwerk'],
@@ -149,7 +149,7 @@ export const projects = [
   {
     // General project info
     id: 'project-6',
-    slug: 'project-6',
+    slug: 'overstek-hooge-mierde',
     location: 'Hooge Mierde',
     year: 2025,
     categories: ['timmerwerk'],
@@ -177,7 +177,7 @@ export const projects = [
   {
     // General project info
     id: 'project-7',
-    slug: 'project-7',
+    slug: 'overstek-lage-mierde',
     location: 'Lage Mierde',
     year: 2025,
     categories: ['timmerwerk'],
@@ -205,7 +205,7 @@ export const projects = [
   {
     // General project info
     id: 'project-8',
-    slug: 'project-8',
+    slug: 'gevelbekleding-bedrijfshal-veldhoven',
     location: 'Veldhoven',
     year: 2025,
     categories: ['verduurzaming'],
