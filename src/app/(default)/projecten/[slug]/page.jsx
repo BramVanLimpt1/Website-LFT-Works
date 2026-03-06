@@ -41,7 +41,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `/projects/${project.slug}`
+      url: `/projecten/${project.slug}`
     }
   };
 }

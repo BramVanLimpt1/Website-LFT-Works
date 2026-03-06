@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `/services/${service.slug}`
+      url: `/diensten/${service.slug}`
     }
   };
 }
