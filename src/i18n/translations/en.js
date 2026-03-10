@@ -486,6 +486,15 @@ export const translations = {
     information: 'Project Information',
     projectNotFound: 'Project not found',
     whatWeDidForThisProject: 'What we did for this project',
+    seeOurOtherProjects: 'See Our Other Projects',
+
+    // Transformation section
+    transformation: {
+      heading: 'The Transformation',
+      caption: 'View the situation before and after our work',
+      before: 'Before',
+      after: 'After'
+    },
 
     // Category labels
     categories: {
@@ -513,6 +522,8 @@ export const translations = {
         description: 'Realization of a beautiful wooden canopy with solid oak columns and a durable terrace floor.',
         detailDescription:
           'For this client we realized a beautiful wooden canopy that fits perfectly with the existing home. The construction is made of sustainable oak with robust columns that ensure a solid and long-lasting solution. The canopy not only offers protection, but also adds a warm and natural look to the outdoor space.',
+        transformationDescription:
+          'The difference between the old and new situation is clearly visible. By using modern materials and techniques, we have completely modernized the outdoor space while maintaining harmony with the existing architecture.',
         activities: {
           activity1: 'Massive oak columns with steel footplates',
           activity2: 'High-quality roof covering with optimal drainage',

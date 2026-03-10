@@ -4,7 +4,8 @@ export const heroData = {
       image: '/assets/about/hero.jpeg',
       title: 'about.hero.title',
       titleHighlight: 'about.hero.titleHighlight',
-      description: 'about.hero.description'
+      description: 'about.hero.description',
+      objectPosition: 'center 30%' // Position image higher to show faces on larger screens
     }
   ],
   height: { xs: 400, sm: 500, md: 600 },

@@ -45,6 +45,11 @@ ProjectDetailPage.propTypes = {
     images: PropTypes.arrayOf(PropTypes.string),
     projectInformationDescriptionKey: PropTypes.string,
     descriptionKey: PropTypes.string,
+    transformationImages: PropTypes.shape({
+      before: PropTypes.string.isRequired,
+      after: PropTypes.string.isRequired
+    }),
+    transformationDescriptionKey: PropTypes.string,
     primaryInfo: PropTypes.arrayOf(
       PropTypes.shape({
         icon: PropTypes.string,

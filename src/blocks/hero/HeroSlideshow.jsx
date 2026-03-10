@@ -90,7 +90,13 @@ export default function HeroSlideshow({ slides, height = { xs: 400, sm: 500, md:
               height: '100%'
             }}
           >
-            <Image src={slides[0].image} alt={slides[0].title || 'Header Image'} fill style={{ objectFit: 'cover' }} priority />
+            <Image
+              src={slides[0].image}
+              alt={slides[0].title || 'Header Image'}
+              fill
+              style={{ objectFit: 'cover', objectPosition: slides[0].objectPosition || 'center' }}
+              priority
+            />
             {showText && (
               <Box
                 sx={{
@@ -171,7 +177,7 @@ export default function HeroSlideshow({ slides, height = { xs: 400, sm: 500, md:
                     src={slide.image}
                     alt={slide.title || `Slide ${index + 1}`}
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'cover', objectPosition: slide.objectPosition || 'center' }}
                     priority={index === 0}
                   />
                   {showText && (
@@ -259,7 +265,8 @@ HeroSlideshow.propTypes = {
       title: PropTypes.string,
       description: PropTypes.string,
       label: PropTypes.string,
-      titleHighlight: PropTypes.string
+      titleHighlight: PropTypes.string,
+      objectPosition: PropTypes.string // CSS object-position value (e.g., 'center', 'center top', 'center 30%')
     })
   ).isRequired,
   height: PropTypes.object,

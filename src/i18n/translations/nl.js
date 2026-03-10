@@ -414,7 +414,7 @@ export const translations = {
         f1: 'Aanbrengen vloer-, gevel- en dakisolatie',
         f2: 'Aanpak koudebruggen',
         f3: 'Energie besparende installaties',
-        f4: 'Zonnenpanelen',
+        f4: 'Zonnenpannelen',
         f5: 'Mogelijkheid op subsidies'
       }
     },
@@ -471,6 +471,16 @@ export const translations = {
     information: 'Projectinformatie',
     projectNotFound: 'Project niet gevonden',
     whatWeDidForThisProject: 'Wat we voor dit project hebben gedaan',
+    seeOurOtherProjects: 'Bekijk onze andere projecten',
+    viewAllProjects: 'Bekijk alle projecten',
+
+    // Transformation section
+    transformation: {
+      heading: 'De transformatie',
+      caption: 'Bekijk de situatie voor en na onze werkzaamheden',
+      before: 'Voor',
+      after: 'Na'
+    },
 
     // Category labels
     categories: {
@@ -491,7 +501,9 @@ export const translations = {
           'Bij deze kaprenovatie hebben we op het woonhuis gebruik gemaakt van renovatieplaten, Renopir. ' +
           'Dit zorgt ervoor dat wij het dakbeschot kunnen laten zitten zodat er binnen niks aan het huis wordt aangetast. ' +
           'De klant heeft gekozen voor een OVH 206 pan. In combinatie van deze nieuwe pannen en een onderhoudsarme overstek van Rockpanel (RAL 7035) is de kap helemaal afgewerkt. ' +
-          'Uiteraard hebben we ook nieuwe zinken goten en afvoeren toegepast.'
+          'Uiteraard hebben we ook nieuwe zinken goten en afvoeren toegepast.',
+        transformationDescription:
+          'Het verschil tussen de oude en nieuwe situatie is duidelijk te zien. Door gebruik te maken van moderne materialen en technieken hebben we het dak volledig gemoderniseerd zonder de bewoonbaarheid van het huis tijdens de renovatie te beïnvloeden.'
       },
       project2: {
         title: 'Gevelbekleding Bladel',
@@ -509,7 +521,7 @@ export const translations = {
           'Hierbij is er gekozen voor een tuinkamer en overkapping. ' +
           'De tuinkamer is een uitbereiding van de woonkamer geworden. ' +
           'Hierbij is een mooie zithoek gecreëerd met rondom uitzicht over de tuin. ' +
-          'De overkapping met rondom glazen schuifwanden is zorgt voor een mooie plek die zowel als binnen als als buiten plek gezien kan worden. ' +
+          'De overkapping met rondom glazen schuifwanden zorgt voor een mooie plek die zowel binnen als buiten plek gezien kan worden. ' +
           'We hebben gebruik gemaakt van prefab eiken constructies. ' +
           'Bij de tuinkamer is eiken dakbeschot toegepast en landelijke zwarte (RAL 9005) kozijnen. ' +
           'Het dakvlak van nieuwe eiken overkapping hebben we vlak door laten lopen met het bestaande schuurtje. ' +
@@ -521,7 +533,7 @@ export const translations = {
         subtitle: 'Deze klant zit er weer warmpjes bij.',
         detailDescription:
           'Dit platdak was hard aan vervanging toe. ' +
-          'Nadat we de oude dakbedekking en dakbeschot afgevoerd hadden kon het opbouwen beginnen. ' +
+          'Nadat we de oude dakbedekking en dakbeschot afgevoerd hadden, kon het opbouwen beginnen. ' +
           'Hierin hebben we de klant volledig ontzorgt, van dakbeschot tot aftimmering. ' +
           'Als platdakisolatie hebben we pir isolatie van unilin toegepast, de boei is gemaakt van trespa (RAL 9001) en vervolgens afgewerkt met een zinken kraal. ' +
           'Deze aanbouw kan er weer jaren tegenaan.'
@@ -537,15 +549,15 @@ export const translations = {
       project6: {
         title: 'Overstek Hooge Mierde',
         detailDescription:
-          'Deze klant wilde hun betimmerde overstek vervangen voor een onderhoudsarme oplossing. ' +
-          'Hierdoor zou het arbeidsintensieve schilderwerk te komen vervallen. ' +
+          'Deze klant wilde de betimmerde overstek vervangen voor een onderhoudsarme oplossing. ' +
+          'Hierdoor komt het arbeidsintensieve schilderwerk te vervallen. ' +
           'De klant heeft gekozen voor een boei van Trespa en tegen het plafond zijn keralit sponningdelen bevestigd, dit beide in RAL 9001. ' +
           'De oude zinken goten en afvoeren zijn daarnaast vervangen.'
       },
       project7: {
         title: 'Overstek Hooge Mierde',
         detailDescription:
-          'Deze klant wilde hun betimmerde overstek vervangen voor een onderhoudsarme oplossing. ' +
+          'Deze klant wilde de betimmerde overstek vervangen voor een onderhoudsarme oplossing. ' +
           'De klant heeft gekozen voor een boei van Trespa (RAL 5011) en een overstek plafond van Keralit (RAL 9001), Ook hebben we de goten en afvoeren vervangen in zink.'
       },
       project8: {

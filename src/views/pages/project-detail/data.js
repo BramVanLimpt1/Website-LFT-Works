@@ -1,3 +1,5 @@
+import { PAGE_PATH } from '@/path';
+
 export const createProjectDetailSections = (project) => {
   if (!project) return [];
 
@@ -30,6 +32,20 @@ export const createProjectDetailSections = (project) => {
         headingKey: 'projects.whatWeDidForThisProject',
         highlightKey: '',
         paragraphKeys: [project.detailDescriptionKey]
+      }
+    });
+  }
+
+  // Transformation Comparison (Before/After) - optional
+  if (project.transformationImages) {
+    sections.push({
+      importFunc: () => import('@/blocks/project').then((module) => ({ default: module.TransformationComparison })),
+      props: {
+        headingKey: 'projects.transformation.heading',
+        captionKey: 'projects.transformation.caption',
+        beforeImage: project.transformationImages.before,
+        afterImage: project.transformationImages.after,
+        descriptionKey: project.transformationDescriptionKey
       }
     });
   }
@@ -81,6 +97,18 @@ export const createProjectDetailSections = (project) => {
       }
     });
   }
+
+  // 5. CTA - See Our Other Projects
+  sections.push({
+    importFunc: () => import('@/blocks/cta').then((module) => ({ default: module.Cta1 })),
+    props: {
+      headingKey: 'projects.seeOurOtherProjects',
+      primaryBtn: {
+        href: PAGE_PATH.projectsPage,
+        children: 'projects.viewAllProjects'
+      }
+    }
+  });
 
   return sections;
 };

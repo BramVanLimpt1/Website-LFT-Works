@@ -21,7 +21,7 @@ export const contactData = {
           children: 'contact.phoneCard.roy'
         },
         {
-          href: 'tel:+31 (0)6 57 41 59 09',
+          href: 'tel:+31 (0)6 57 41 5909',
           children: 'contact.phoneCard.thijs'
         }
       ]
@@ -32,11 +32,11 @@ export const contactData = {
       descriptionKey: 'contact.whatsappCard.content',
       link: [
         {
-          href: 'https://wa.me/31123456789',
+          href: 'https://wa.me/31681399741',
           children: 'contact.whatsappCard.roy'
         },
         {
-          href: 'https://wa.me/31987654321',
+          href: 'https://wa.me/31657415909',
           children: 'contact.whatsappCard.thijs'
         }
       ]

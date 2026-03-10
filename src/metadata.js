@@ -22,7 +22,7 @@ const ogCommon = {
 
 export const mainMetadata = {
   title: {
-    template: `%s | ${branding.brandName} Timmerbedrijf`,
+    template: `%s | ${branding.brandName}`,
     default: branding.brandName
   },
   description:

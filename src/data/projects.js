@@ -234,6 +234,12 @@ export const projects = [
     // Gallery info
     images: ['/assets/projects/project8/image_1.jpg', '/assets/projects/project8/image_2.jpg'],
     thumbnail: '/assets/projects/project8/image_1.jpg',
+    // Transformation (before/after) - optional
+    transformationImages: {
+      before: '/assets/projects/project8/image_3.png',
+      after: '/assets/projects/project8/image_1.jpg'
+    },
+    // transformationDescriptionKey: 'projects.items.project8.transformationDescription',
     // Description info
     detailDescriptionKey: 'projects.items.project8.detailDescription',
     // Project information
