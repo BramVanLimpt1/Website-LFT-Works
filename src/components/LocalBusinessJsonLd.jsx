@@ -77,7 +77,11 @@ export function LocalBusinessJsonLd() {
         },
         {
           '@type': 'Offer',
-          itemOffered: { '@type': 'Service', name: 'Advies', description: 'Professioneel advies op het gebied van industriële automatisering' }
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Advies',
+            description: 'Professioneel advies op het gebied van industriële automatisering'
+          }
         },
         {
           '@type': 'Offer',

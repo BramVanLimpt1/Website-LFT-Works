@@ -40,14 +40,7 @@ import countries from '@/data/countries';
 
 import { submitContactForm } from '@/api/contact';
 
-import {
-  getEmailSchema,
-  getFirstNameSchema,
-  getLastNameSchema,
-  getPhoneSchema,
-  getMessageSchema,
-  getLocationSchema
-} from '@/utils/validationSchema';
+import { getEmailSchema, getFirstNameSchema, getLastNameSchema, getPhoneSchema, getMessageSchema } from '@/utils/validationSchema';
 
 /***************************  FORM - INPUT LABEL  ***************************/
 
@@ -145,7 +138,7 @@ export default function ContactUsForm2() {
       formData.append('name', `${data.firstName} ${data.lastName}`);
       formData.append('email', data.email);
       formData.append('phone', `${data.dialcode}${data.phone}`);
-      formData.append('location', data.location);
+      formData.append('company', data.company || '');
       formData.append('message', data.message);
       if (file) {
         formData.append('file', file);
@@ -311,18 +304,16 @@ export default function ContactUsForm2() {
             </Stack>
           </Grid>
 
-          {/* Location Field */}
+          {/* Company Field (optional) */}
           <Grid size={12}>
             <Stack sx={{ gap: 0.5 }}>
-              <FieldLabel name={t('forms.location')} helper={t('forms.locationHelper')} />
+              <FieldLabel name={t('forms.company')} />
               <OutlinedInput
-                {...register('location', getLocationSchema(t))}
-                placeholder={t('forms.locationPlaceholder')}
-                slotProps={{ input: { 'aria-label': 'Location' } }}
+                {...register('company')}
+                placeholder={t('forms.companyPlaceholder')}
+                slotProps={{ input: { 'aria-label': 'Company' } }}
                 fullWidth
-                error={errors.location && Boolean(errors.location)}
               />
-              {errors.location?.message && <ErrorMessage message={errors.location?.message} />}
             </Stack>
           </Grid>
 
