@@ -26,18 +26,18 @@ export const mainMetadata = {
     default: branding.brandName
   },
   description:
-    'LFT-Works is gespecialiseerd in industriele automatisering, PLC programmering, schakelkast engineering en inbedrijfstelling. Uw partner voor betrouwbare automatiseringsoplossingen.',
+    'LFT-Works is gespecialiseerd in industriele automatisering, PLC programmering, panelenbouw en inbedrijfstelling. Uw partner voor betrouwbare automatiseringsoplossingen.',
   applicationName: branding.brandName,
   keywords: [
     'industriele automatisering',
     'PLC programmering',
-    'schakelkast engineering',
+    'panelenbouw',
     'inbedrijfstelling',
     'aandrijftechniek',
     'machine upgrades',
     'Siemens',
     'besturingstechniek',
-    'elektrische installatie',
+    'advies',
     'LFT-Works'
   ],
   creator: branding.company?.name || branding.brandName,
@@ -47,14 +47,14 @@ export const mainMetadata = {
   },
   icons: {
     icon: [
-      { url: '/assets/logo/light-lft.png', media: '(prefers-color-scheme: light)' },
-      { url: '/assets/logo/light-lft.png', media: '(prefers-color-scheme: dark)' }
+      { url: '/assets/logo/light.png', media: '(prefers-color-scheme: light)' },
+      { url: '/assets/logo/dark.png', media: '(prefers-color-scheme: dark)' }
     ],
-    apple: '/assets/logo/light-lft.png'
+    apple: '/assets/logo/light.png'
   },
   openGraph: {
     title: `${branding.brandName} — Industriele Automatisering & PLC Programmering`,
-    description: 'Specialist in industriele automatisering, PLC software, schakelkast engineering en inbedrijfstelling.',
+    description: 'Specialist in industriele automatisering, PLC software, panelenbouw en inbedrijfstelling.',
     url: '/',
     ...ogCommon
   }
@@ -79,10 +79,10 @@ export const aboutMetadata = {
 export const servicesMetadata = {
   title: 'Diensten',
   description:
-    'LFT-Works biedt PLC programmering, schakelkast engineering, elektrische installatie, aandrijving configuratie, machine upgrades en inbedrijfstelling. Vraag vrijblijvend een offerte aan.',
+    'LFT-Works biedt PLC programmering, panelenbouw, advies, aandrijving configuratie, machine upgrades en inbedrijfstelling. Vraag vrijblijvend een offerte aan.',
   openGraph: {
     title: 'Onze diensten',
-    description: 'PLC software, schakelkast engineering, inbedrijfstelling en meer. Bekijk wat LFT-Works voor u kan betekenen.',
+    description: 'PLC software, panelenbouw, inbedrijfstelling en meer. Bekijk wat LFT-Works voor u kan betekenen.',
     url: '/diensten',
     ...ogCommon
   }

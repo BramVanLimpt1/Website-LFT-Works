@@ -16,8 +16,8 @@
     }
   },
   "logo": {
-    "light": "/assets/logo/light-lft.png",
-    "dark": "/assets/logo/light-lft.png",
+    "light": "/assets/logo/light.png",
+    "dark": "/assets/logo/dark.png",
     "main": "",
     "logoIcon": "",
     "logoFab": "",

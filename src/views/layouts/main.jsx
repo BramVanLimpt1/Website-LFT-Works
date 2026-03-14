@@ -5,32 +5,32 @@ import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 
 // @project
-import { Footer9 } from '@/blocks/footer';
+import { Footer3 } from '@/blocks/footer';
 import { Navbar2 } from '@/blocks/navbar';
 import { NavbarContent2 } from '@/blocks/navbar/navbar-content';
 
 // @data
 import { useNavbarData } from './data/navbar';
 
-import { companyInfo, bottomBar } from './data';
+import { footerData } from './data';
 
 /***************************  LAYOUT - MAIN  ***************************/
 
 export default function MainLayout({ children }) {
-  const navbar = useNavbarData();
+  const navbarData = useNavbarData();
 
   return (
     <>
       {/* Header section */}
-      <Box sx={{ bgcolor: 'grey.100' }}>
+      <Box>
         <Navbar2>
-          <NavbarContent2 {...navbar} />
+          <NavbarContent2 {...navbarData} />
         </Navbar2>
       </Box>
       {/* Page content */}
       <main>{children}</main>
       {/* Footer section */}
-      <Footer9 companyInfo={companyInfo} bottomBar={bottomBar} />
+      <Footer3 {...footerData} />
     </>
   );
 }

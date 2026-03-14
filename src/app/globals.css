@@ -22,6 +22,11 @@ body * {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Styles for RTL (right-to-left) direction */

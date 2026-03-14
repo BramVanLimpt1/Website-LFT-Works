@@ -103,12 +103,13 @@ export const translations = {
     privacyPolicy: 'Privacybeleid',
     termsConditions: 'Algemene Voorwaarden',
     enterEmailAddress: 'Voer je e-mailadres in',
-    followUsOn: 'Volg Ons op',
+    followUsOn: 'Volg ons',
     allRightsReserved: 'Alle rechten voorbehouden',
     email: 'E-mail',
     phone: 'Telefoon',
     kvkNumber: 'KvK Nummer',
-    btwNumber: 'BTW Nummer'
+    btwNumber: 'BTW Nummer',
+    logoText: 'Uw partner voor industriële automatisering.'
   },
 
   // Language names
@@ -133,11 +134,57 @@ export const translations = {
     }
   },
 
+  // --- Page-specific translations ---
+
+  // About Page
+  about: {
+    hero: {
+      title: 'Engineering',
+      titleHighlight: 'met passie',
+      description: 'Betrouwbare automatiseringsoplossingen door ervaring en toewijding.'
+    },
+    story: {
+      heading: 'Van ervaring naar',
+      highlight: 'expertise',
+      p1: 'LFT-Works is opgericht vanuit een passie voor industriele automatisering en techniek. Met een achtergrond in automatiseringstechniek heb ik ruime ervaring opgebouwd met PLC systemen, aandrijftechniek en panelenbouw.',
+      p2: 'Beginnend bij BTH-Holland heb ik praktijkervaring opgedaan met palleteer machines en vullijnen. Dit is uigeroeid tot een eigen bedrijf dat zich richt op het leveren van hoogwaardige automatiseringsdiensten aan diverse industrieen.',
+      p3: 'Vandaag biedt LFT-Works uitgebreide automatiseringsdiensten. Of het nu gaat om nieuwe PLC software, een schakelkast upgrade of complete inbedrijfstelling, elk project wordt benaderd met dezelfde toewijding en aandacht voor kwaliteit.'
+    },
+    timeline: {
+      heading: 'Mijn traject',
+      caption: 'Belangrijke mijlpalen in mijn carriere en LFT-Works',
+      1: {
+        title: 'LFT-Works gestart',
+        description: '...'
+      },
+      2: {
+        title: 'Niew kantoor',
+        description: '...'
+      },
+      3: {
+        title: '100e project afgerond',
+        description: '...'
+      }
+    },
+    founders: {
+      heading: 'De engineer achter LFT-Works',
+      engineer: {
+        role: 'Eigenaar',
+        quote: '"Elke machine verdient software die betrouwbaar werkt. Dat is waar ik in elk project naar streef."'
+      }
+    },
+    cta: {
+      heading: 'Klaar om uw proces te automatiseren?',
+      description: 'Neem contact op voor een vrijblijvend gesprek',
+      button: 'Neem contact op'
+    }
+  },
+
   // Contact Page
   contact: {
     pageTitle: 'Contact',
     heading: 'Neem contact op',
-    caption: 'Heeft u een vraag over industriele automatisering? Ik hoor graag van u.',
+    caption: 'Heeft u een vraag?. Ik help u graag verder. Neem contact op via onderstaand formulier of een van de andere opties.',
     emailCard: {
       title: 'E-mail',
       content: 'Stuur een e-mail voor vragen',
@@ -158,17 +205,9 @@ export const translations = {
   // Home Page
   home: {
     hero: {
-      slide1: {
-        title: 'Industriele Automatisering & PLC Oplossingen',
+      slide: {
+        title: 'Industriele automatisering op maat',
         description: 'Uw partner voor betrouwbare automatisering, van ontwerp tot inbedrijfstelling'
-      },
-      slide2: {
-        title: 'PLC Programmering & Besturingssystemen',
-        description: 'Maatwerkoplossingen voor uw productieproces'
-      },
-      slide3: {
-        title: 'Van Concept tot Inbedrijfstelling',
-        description: 'Complete automatiseringsoplossingen voor de industrie'
       }
     },
     services: {
@@ -177,20 +216,20 @@ export const translations = {
         title: 'PLC Software',
         description: 'Maatwerk PLC programmering voor optimale machinebesturing en procesautomatisering'
       },
-      schakelkastEngineering: {
-        title: 'Schakelkast Engineering',
+      panelenbouw: {
+        title: 'Panelenbouw',
         description: 'Ontwerp en assemblage van schakelkasten volgens industriele standaarden'
       },
-      elektrischeInstallatie: {
-        title: 'Elektrische Installatie',
-        description: 'Professionele elektrische installaties voor industriele machines en systemen'
+      advies: {
+        title: 'Advies',
+        description: 'Professioneel advies voor advies en automatiseringsprojecten'
       },
       aandrijvingConfiguratie: {
-        title: 'Aandrijving Configuratie',
+        title: 'Aandrijving configuratie',
         description: 'Configuratie en optimalisatie van frequentieregelaars en servosystemen'
       },
       machineUpgrades: {
-        title: 'Machine Upgrades',
+        title: 'Machine upgrades',
         description: 'Moderniseer bestaande machines met nieuwe besturingssystemen en software'
       },
       inbedrijfstelling: {
@@ -202,7 +241,7 @@ export const translations = {
       heading: 'Passie voor',
       highlight: 'automatisering',
       caption:
-        'LFT-Works is gespecialiseerd in industriele automatisering en PLC programmering. Met jarenlange ervaring in de industrie lever ik betrouwbare en efficiente automatiseringsoplossingen. Van PLC software tot complete schakelkast engineering — uw project is in goede handen.',
+        'LFT-Works is gespecialiseerd in industriele automatisering en PLC programmering. Met jarenlange ervaring in de industrie lever ik betrouwbare en efficiente automatiseringsoplossingen. Van PLC software tot complete panelenbouw.',
       button: 'Meer over ons'
     },
     process: {
@@ -225,60 +264,44 @@ export const translations = {
         description: 'Installatie, testen en inbedrijfstelling van het complete systeem op locatie met training voor operators.'
       }
     },
-    clientele: {
-      title: 'Vertrouwd door marktleiders'
-    },
+    // Revieuws
     projects: {
       heading: 'Uitgelichte projecten',
       caption: 'Een selectie van afgeronde automatiseringsprojecten'
+    },
+    testimonials: {
+      heading: 'Wat onze klanten zeggen',
+      caption: 'Vertrouwd door industriële bedrijven door heel Nederland',
+      t1: {
+        title: 'Betrouwbare automatisering, op tijd en binnen budget',
+        review:
+          'LFT-Works leverde precies wat we nodig hadden — een robuuste PLC-oplossing voor onze productielijn, op tijd afgerond. Hun expertise in Siemens TIA Portal bespaarde ons weken aan ontwikkeling.',
+        role: 'Productieleider'
+      },
+      t2: {
+        title: 'Uitstekende panelenbouw',
+        review:
+          "Het schakelkastontwerp en de assemblage waren vlekkeloos. Elk detail was doordacht, van de elektrische schema's tot de CE-documentatie. Wij bevelen LFT-Works van harte aan.",
+        role: 'Technisch Directeur'
+      },
+      t3: {
+        title: 'Soepele inbedrijfstelling van begin tot einde',
+        review:
+          'Van de eerste analyse tot de definitieve oplevering was de communicatie helder en professioneel. Het systeem werd perfect in bedrijf gesteld en onze operators werden goed getraind.',
+        role: 'Fabriekmanager'
+      },
+      t4: {
+        title: 'Uitstekende expertise in aandrijvingsconfiguratie',
+        review:
+          'Onze frequentie-omvormers werden opnieuw geconfigureerd en geoptimaliseerd voor energiebesparing. De resultaten overtroffen onze verwachtingen — een aanzienlijke vermindering van het energieverbruik.',
+        role: 'Onderhoudstechnicus'
+      }
     },
     viewAllProjects: 'Bekijk alle projecten',
     cta: {
       heading: 'Klaar om uw proces te automatiseren?',
       description: 'Neem contact op voor een vrijblijvend gesprek',
       button: 'Neem contact op'
-    }
-  },
-
-  // About Page
-  about: {
-    hero: {
-      title: 'Engineering',
-      titleHighlight: 'met passie',
-      description: 'Betrouwbare automatiseringsoplossingen door ervaring en toewijding.'
-    },
-    story: {
-      heading: 'Van ervaring naar',
-      highlight: 'expertise',
-      p1: 'LFT-Works is opgericht vanuit een passie voor industriele automatisering en techniek. Met een achtergrond in automatiseringstechniek heb ik ruime ervaring opgebouwd met PLC systemen, aandrijftechniek en schakelkast engineering.',
-      p2: 'Beginnend bij BTH-Holland heb ik praktijkervaring opgedaan met depaneling machines en vullijnen. Deze praktische basis is van onschatbare waarde gebleken voor het begrijpen van het volledige spectrum van industriele automatisering — van sensorniveau tot complete productielijn integratie.',
-      p3: 'Vandaag biedt LFT-Works uitgebreide automatiseringsdiensten. Of het nu gaat om nieuwe PLC software, een schakelkast upgrade of complete inbedrijfstelling — elk project wordt benaderd met dezelfde toewijding en aandacht voor kwaliteit.'
-    },
-    timeline: {
-      heading: 'Mijn Traject',
-      caption: 'Belangrijke mijlpalen in mijn carriere als automatiseringsengineer',
-      started: {
-        title: 'Start in Automatisering',
-        description:
-          'Carriere gestart in industriele automatisering, met praktijkervaring opgedaan met PLC systemen en machinebesturing bij BTH-Holland.'
-      },
-      experience: {
-        title: 'Groeiende Expertise',
-        description:
-          'Kennis uitgebreid in aandrijftechniek, schakelkast engineering en complexe automatiseringsprojecten in diverse industrieen.'
-      },
-      lftworks: {
-        title: 'LFT-Works Opgericht',
-        description:
-          'LFT-Works opgericht om gespecialiseerde automatiseringsdiensten aan te bieden — PLC programmering, schakelkast engineering en inbedrijfstelling.'
-      }
-    },
-    founders: {
-      heading: 'De engineer achter LFT-Works',
-      engineer: {
-        role: 'Automatiseringsengineer',
-        quote: '"Elke machine verdient software die betrouwbaar werkt. Dat is waar ik in elk project naar streef."'
-      }
     }
   },
 
@@ -343,7 +366,7 @@ export const translations = {
       servicesDescription: {
         heading: 'Beschrijving van Diensten',
         caption:
-          'LFT-Works biedt industriele automatiseringsdiensten aan, waaronder PLC programmering, schakelkast engineering, elektrische installatie, aandrijving configuratie, machine upgrades en inbedrijfstelling. Alle diensten zijn onder voorbehoud van beschikbaarheid en kunnen op elk moment worden gewijzigd of stopgezet.'
+          'LFT-Works biedt industriele automatiseringsdiensten aan, waaronder PLC programmering, panelenbouw, advies, aandrijving configuratie, machine upgrades en inbedrijfstelling. Alle diensten zijn onder voorbehoud van beschikbaarheid en kunnen op elk moment worden gewijzigd of stopgezet.'
       },
       userResponsibilities: {
         heading: 'Gebruikersverantwoordelijkheden',
@@ -378,6 +401,42 @@ export const translations = {
     }
   },
 
+  // Projects Page
+  projects: {
+    heading: 'Onze projecten',
+    caption: 'Ontdek hier onze uitgevoerde automatiseringsprojecten',
+    filterByCategory: 'Filter op categorie',
+    noProjects: 'Geen projecten gevonden in deze categorie',
+    aboutProject: 'Over dit project',
+    information: 'Projectinformatie',
+    projectNotFound: 'Project niet gevonden',
+    whatWeDidForThisProject: 'Wat we voor dit project hebben gedaan',
+    seeOurOtherProjects: 'Bekijk onze andere projecten',
+    viewAllProjects: 'Bekijk alle projecten',
+
+    // Transformation section
+    transformation: {
+      heading: 'De transformatie',
+      caption: 'Bekijk de situatie voor en na onze werkzaamheden',
+      before: 'Voor',
+      after: 'Na'
+    },
+
+    // Category labels
+    categories: {
+      all: 'Alle projecten',
+      'plc-software': 'PLC Software',
+      panelenbouw: 'Panelenbouw',
+      advies: 'Advies',
+      'aandrijving-configuratie': 'Aandrijving configuratie',
+      'machine-upgrades': 'Machine upgrades',
+      inbedrijfstelling: 'Inbedrijfstelling'
+    },
+
+    // Project items
+    items: {}
+  },
+
   // Service Detail Pages
   services: {
     plcSoftware: {
@@ -393,8 +452,8 @@ export const translations = {
         f5: 'Safety PLC programmering (SIL/PLe)'
       }
     },
-    schakelkastEngineering: {
-      title: 'Schakelkast Engineering',
+    panelenbouw: {
+      title: 'Panelenbouw',
       descriptionTitle: 'Professioneel Schakelkast Ontwerp',
       description:
         "Van schema-ontwerp tot volledig geassembleerde schakelkast. Ik verzorg het complete engineeringproces, van componentenselectie tot bedradingsschema's volgens geldende normen en voorschriften.",
@@ -406,11 +465,11 @@ export const translations = {
         f5: 'Testen en inspectie'
       }
     },
-    elektrischeInstallatie: {
-      title: 'Elektrische Installatie',
-      descriptionTitle: 'Industriele Elektrische Installatie',
+    advies: {
+      title: 'Advies',
+      descriptionTitle: 'Industriele Advies',
       description:
-        'Professionele elektrische installaties voor industriele machines en productieomgevingen. Van kabelgoten tot sensoraansluitingen — alles voor een betrouwbare en veilige elektrische infrastructuur.',
+        'Professionele advies voor industriele machines en productieomgevingen. Van kabelgoten tot sensoraansluitingen — alles voor een betrouwbare en veilige elektrische infrastructuur.',
       features: {
         f1: 'Machine bedrading en kabelgeleiding',
         f2: 'Sensor- en actuatorinstallatie',
@@ -419,7 +478,7 @@ export const translations = {
       }
     },
     aandrijvingConfiguratie: {
-      title: 'Aandrijving Configuratie',
+      title: 'Aandrijving configuratie',
       descriptionTitle: 'Aandrijftechniek & Configuratie',
       description:
         'Optimale configuratie van frequentieregelaars en servosystemen voor nauwkeurige en energiezuinige motorbesturing. Van parameterinstellingen tot complexe motion control toepassingen.',
@@ -431,7 +490,7 @@ export const translations = {
       }
     },
     machineUpgrades: {
-      title: 'Machine Upgrades',
+      title: 'Machine upgrades',
       descriptionTitle: 'Machine Modernisering & Retrofitting',
       description:
         'Geef uw bestaande machines een nieuw leven met moderne besturingstechnologie. Machine upgrades verlengen de levensduur van uw apparatuur en verbeteren tegelijkertijd prestaties, betrouwbaarheid en energie-efficientie.',
@@ -483,41 +542,5 @@ export const translations = {
       caption: 'Ontdek al onze professionele automatiseringsdiensten'
     },
     serviceNotFound: 'Dienst niet gevonden'
-  },
-
-  // Projects Page
-  projects: {
-    heading: 'Onze projecten',
-    caption: 'Ontdek hier onze uitgevoerde automatiseringsprojecten',
-    filterByCategory: 'Filter op categorie',
-    noProjects: 'Geen projecten gevonden in deze categorie',
-    aboutProject: 'Over dit project',
-    information: 'Projectinformatie',
-    projectNotFound: 'Project niet gevonden',
-    whatWeDidForThisProject: 'Wat we voor dit project hebben gedaan',
-    seeOurOtherProjects: 'Bekijk onze andere projecten',
-    viewAllProjects: 'Bekijk alle projecten',
-
-    // Transformation section
-    transformation: {
-      heading: 'De transformatie',
-      caption: 'Bekijk de situatie voor en na onze werkzaamheden',
-      before: 'Voor',
-      after: 'Na'
-    },
-
-    // Category labels
-    categories: {
-      all: 'Alle projecten',
-      'plc-software': 'PLC Software',
-      'schakelkast-engineering': 'Schakelkast Engineering',
-      'elektrische-installatie': 'Elektrische Installatie',
-      'aandrijving-configuratie': 'Aandrijving Configuratie',
-      'machine-upgrades': 'Machine Upgrades',
-      inbedrijfstelling: 'Inbedrijfstelling'
-    },
-
-    // Project items (empty for now — Phase 2)
-    items: {}
   }
 };

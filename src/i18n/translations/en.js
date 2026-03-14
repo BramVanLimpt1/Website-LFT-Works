@@ -107,7 +107,8 @@ export const translations = {
     email: 'Email',
     phone: 'Phone',
     kvkNumber: 'KvK Number',
-    btwNumber: 'BTW Number'
+    btwNumber: 'BTW Number',
+    logoText: 'Your partner for industrial automation, from PLC programming to commissioning.'
   },
 
   // Language names
@@ -176,20 +177,16 @@ export const translations = {
         title: 'PLC Software',
         description: 'Custom PLC programming for optimal machine control and process automation'
       },
-      schakelkastEngineering: {
+      panelenbouw: {
         title: 'Control Panel Engineering',
         description: 'Design and assembly of control panels according to industrial standards'
       },
-      elektrischeInstallatie: {
+      advies: {
         title: 'Electrical Installation',
         description: 'Professional electrical installations for industrial machinery and systems'
       },
-      aandrijvingConfiguratie: {
-        title: 'Drive Configuration',
-        description: 'Configuration and optimization of frequency drives and servo systems'
-      },
       machineUpgrades: {
-        title: 'Machine Upgrades',
+        title: 'Machine upgrades',
         description: 'Modernize existing machines with new control systems and software'
       },
       inbedrijfstelling: {
@@ -230,6 +227,34 @@ export const translations = {
     projects: {
       heading: 'Featured Projects',
       caption: 'A selection of completed automation projects'
+    },
+    testimonials: {
+      heading: 'What our clients say',
+      caption: 'Trusted by industrial companies across the Netherlands',
+      t1: {
+        title: 'Reliable automation, on time and on budget',
+        review:
+          'LFT-Works delivered exactly what we needed — a robust PLC solution for our production line, completed ahead of schedule. Their expertise in Siemens TIA Portal saved us weeks of development.',
+        role: 'Production Manager'
+      },
+      t2: {
+        title: 'Expert control panel engineering',
+        review:
+          'The control panel design and assembly was flawless. Every detail was thought through, from the electrical schematics to the CE documentation. We highly recommend LFT-Works.',
+        role: 'Technical Director'
+      },
+      t3: {
+        title: 'Smooth commissioning from start to finish',
+        review:
+          'From the first analysis to the final handover, the communication was clear and professional. The system was commissioned perfectly and our operators were well trained.',
+        role: 'Plant Manager'
+      },
+      t4: {
+        title: 'Outstanding drive configuration expertise',
+        review:
+          'Our frequency drives were reconfigured and optimised for energy efficiency. The results exceeded our expectations — a significant reduction in energy consumption within weeks.',
+        role: 'Maintenance Engineer'
+      }
     },
     viewAllProjects: 'View All Projects',
     cta: {
@@ -392,7 +417,7 @@ export const translations = {
         f5: 'Safety PLC programming (SIL/PLe)'
       }
     },
-    schakelkastEngineering: {
+    panelenbouw: {
       title: 'Control Panel Engineering',
       descriptionTitle: 'Professional Control Panel Design',
       description:
@@ -405,7 +430,7 @@ export const translations = {
         f5: 'Testing and inspection'
       }
     },
-    elektrischeInstallatie: {
+    advies: {
       title: 'Electrical Installation',
       descriptionTitle: 'Industrial Electrical Installation',
       description:
@@ -430,7 +455,7 @@ export const translations = {
       }
     },
     machineUpgrades: {
-      title: 'Machine Upgrades',
+      title: 'Machine upgrades',
       descriptionTitle: 'Machine Modernization & Retrofitting',
       description:
         'Give your existing machines a new life with modern control technology. Machine upgrades extend the lifespan of your equipment while improving performance, reliability, and energy efficiency.',
@@ -509,10 +534,10 @@ export const translations = {
     categories: {
       all: 'All Projects',
       'plc-software': 'PLC Software',
-      'schakelkast-engineering': 'Control Panel Engineering',
-      'elektrische-installatie': 'Electrical Installation',
+      panelenbouw: 'Control Panel Engineering',
+      advies: 'Electrical Installation',
       'aandrijving-configuratie': 'Drive Configuration',
-      'machine-upgrades': 'Machine Upgrades',
+      'machine-upgrades': 'Machine upgrades',
       inbedrijfstelling: 'Commissioning'
     },
 

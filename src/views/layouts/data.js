@@ -1,9 +1,16 @@
-export const companyInfo = {
+export const footerData = {
+  logo: {
+    light: '/assets/logo/light_full.png',
+    dark: '/assets/logo/dark_full.png'
+  },
+  logoTextKey: 'footer.logoText',
+  socialLinks: [{ icon: 'tabler-filled-linkedin', href: '#', label: 'LinkedIn' }],
   infoItems: [
     {
       labelKey: 'forms.location',
       icon: 'tabler-map-pin',
-      value: 'Nederland'
+      value: 'Kattenbos 11, 5541 PJ, Reusel, Nederland',
+      href: 'https://www.google.com/maps?q=Kattenbos+11+5541+PJ+Reusel'
     },
     {
       labelKey: 'footer.phone',
@@ -27,19 +34,6 @@ export const companyInfo = {
       icon: 'tabler-receipt-2',
       value: 'NL000000000B00'
     }
-  ]
-};
-
-export const bottomBar = {
-  copyrightType: 'TYPE3',
-  legalLinks: [
-    {
-      label: 'footer.privacyPolicy',
-      href: '/privacy-policy'
-    },
-    {
-      label: 'footer.termsConditions',
-      href: '/terms-conditions'
-    }
-  ]
+  ],
+  copyrightType: 'TYPE1'
 };

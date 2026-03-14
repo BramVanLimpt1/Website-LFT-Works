@@ -1,8 +1,18 @@
 export const heroSlides = [
   {
-    image: '/assets/home/hero_1.jpg',
-    titleKey: 'home.hero.slide1.title',
-    descriptionKey: 'home.hero.slide1.description'
+    image: '/assets/home/hero_1.webp',
+    titleKey: 'home.hero.slide.title',
+    descriptionKey: 'home.hero.slide.description'
+  },
+  {
+    image: '/assets/home/hero_2.jpg',
+    titleKey: 'home.hero.slide.title',
+    descriptionKey: 'home.hero.slide.description'
+  },
+  {
+    image: '/assets/home/hero_3.webp',
+    titleKey: 'home.hero.slide.title',
+    descriptionKey: 'home.hero.slide.description'
   }
 ];
 
@@ -21,19 +31,19 @@ export const servicesData = {
     },
     {
       icon: 'tabler-plug',
-      titleKey: 'home.services.schakelkastEngineering.title',
-      descriptionKey: 'home.services.schakelkastEngineering.description',
+      titleKey: 'home.services.panelenbouw.title',
+      descriptionKey: 'home.services.panelenbouw.description',
       link: {
-        href: '/diensten/schakelkast-engineering',
+        href: '/diensten/panelenbouw',
         children: 'common.learnMore'
       }
     },
     {
-      icon: 'tabler-bolt',
-      titleKey: 'home.services.elektrischeInstallatie.title',
-      descriptionKey: 'home.services.elektrischeInstallatie.description',
+      icon: 'tabler-help',
+      titleKey: 'home.services.advies.title',
+      descriptionKey: 'home.services.advies.description',
       link: {
-        href: '/diensten/elektrische-installatie',
+        href: '/diensten/advies',
         children: 'common.learnMore'
       }
     },
@@ -71,7 +81,7 @@ export const aboutTeaserData = {
   headingKey: 'home.aboutTeaser.heading',
   highlightKey: 'home.aboutTeaser.highlight',
   captionKey: 'home.aboutTeaser.caption',
-  image: '/assets/home/about.jpeg',
+  image: '/assets/temp/placeholder_person.jpg',
   primaryBtn: {
     href: '/over-ons',
     children: 'home.aboutTeaser.button'
@@ -117,6 +127,46 @@ export const clienteleData = {
     { image: '/assets/temp/placeholder.png', sx: { height: 40 } },
     { image: '/assets/temp/placeholder.png', sx: { height: 40 } },
     { image: '/assets/temp/placeholder.png', sx: { height: 40 } }
+  ]
+};
+
+export const testimonialData = {
+  headingKey: 'home.testimonials.heading',
+  captionKey: 'home.testimonials.caption',
+  testimonials: [
+    {
+      titleKey: 'home.testimonials.t1.title',
+      reviewKey: 'home.testimonials.t1.review',
+      image: '/assets/companies/imp.png',
+      // imageProps overrides the default logo size/style. Examples:
+      //   wide logo:   imageProps: { sx: { height: 32, width: 'auto' } }
+      //   square logo: imageProps: { sx: { width: 48, height: 48 } }
+      //   tall logo:   imageProps: { sx: { height: 56, width: 'auto' } }
+      imageProps: { sx: { height: 48, width: 'auto' } },
+      companyHref: 'https://imp-automation.nl/',
+      profile: { name: 'Pieter van den Berg', roleKey: 'home.testimonials.t1.role' }
+    },
+    {
+      titleKey: 'home.testimonials.t2.title',
+      reviewKey: 'home.testimonials.t2.review',
+      image: '/assets/temp/placeholder.png',
+      companyHref: 'https://example.com',
+      profile: { name: 'Hanne Mulder', roleKey: 'home.testimonials.t2.role' }
+    },
+    {
+      titleKey: 'home.testimonials.t3.title',
+      reviewKey: 'home.testimonials.t3.review',
+      image: '/assets/temp/placeholder.png',
+      companyHref: 'https://example.com',
+      profile: { name: 'Ruud Smits', roleKey: 'home.testimonials.t3.role' }
+    },
+    {
+      titleKey: 'home.testimonials.t4.title',
+      reviewKey: 'home.testimonials.t4.review',
+      image: '/assets/temp/placeholder.png',
+      companyHref: 'https://example.com',
+      profile: { name: 'Lisa Bergmans', roleKey: 'home.testimonials.t4.role' }
+    }
   ]
 };
 

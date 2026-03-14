@@ -10,9 +10,9 @@ import Box from '@mui/material/Box';
 // @project
 import ContainerWrapper from '@/components/ContainerWrapper';
 
-// @types
+import { BORDER_RADIUS } from '@/utils/constant';
 
-// override media queries injected by theme.mixins.toolbar
+// Override media queries injected by theme.mixins.toolbar
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   '@media all': {
     minHeight: 108,
@@ -42,11 +42,9 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function Navbar2({ children }) {
   return (
     <ContainerWrapper>
-      <AppBar position="static" color="inherit" elevation={0} sx={{ background: 'transparent' }}>
+      <AppBar position="static" color="inherit" elevation={0}>
         <StyledToolbar>
-          <Box
-            sx={{ width: 1, px: { xs: 1.5, sm: 3 }, py: { xs: 0.5, sm: 2 }, bgcolor: 'grey.100', borderRadius: { xs: 3, sm: 4, md: 6 } }}
-          >
+          <Box sx={{ width: 1, px: { xs: 1.5, sm: 3 }, py: { xs: 0.5, sm: 2 }, bgcolor: 'grey.100', borderRadius: BORDER_RADIUS.lg }}>
             {children}
           </Box>
         </StyledToolbar>

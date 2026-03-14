@@ -23,7 +23,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 
 /***************************  CALL TO ACTION - 1  ***************************/
 
-export default function Cta1({ bgImage, headingKey, primaryBtn }) {
+export default function Cta1({ bgImage, headingKey, descriptionKey, primaryBtn }) {
   const theme = useTheme();
   const { t } = useTranslation();
 
@@ -54,6 +54,9 @@ export default function Cta1({ bgImage, headingKey, primaryBtn }) {
               <Typography variant="h2" align="center">
                 {t(headingKey)}
               </Typography>
+              <Typography variant="h6" align="center">
+                {t(descriptionKey)}
+              </Typography>
               {primaryBtn && (
                 <ButtonAnimationWrapper style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                   <Button
@@ -75,4 +78,4 @@ export default function Cta1({ bgImage, headingKey, primaryBtn }) {
   );
 }
 
-Cta1.propTypes = { bgImage: PropTypes.any, headingKey: PropTypes.string, primaryBtn: PropTypes.any };
+Cta1.propTypes = { bgImage: PropTypes.any, headingKey: PropTypes.string, descriptionKey: PropTypes.string, primaryBtn: PropTypes.any };

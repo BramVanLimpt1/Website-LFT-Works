@@ -29,13 +29,13 @@ export const useNavbarData = () => {
             },
             {
               icon: 'tabler-plug',
-              title: t('services.schakelkastEngineering.title'),
-              link: '/diensten/schakelkast-engineering'
+              title: t('services.panelenbouw.title'),
+              link: '/diensten/panelenbouw'
             },
             {
               icon: 'tabler-bolt',
-              title: t('services.elektrischeInstallatie.title'),
-              link: '/diensten/elektrische-installatie'
+              title: t('services.advies.title'),
+              link: '/diensten/advies'
             },
             {
               icon: 'tabler-settings',

@@ -1,11 +1,11 @@
 export const heroData = {
   slides: [
     {
-      image: '/assets/about/hero.jpeg',
+      image: '/assets/temp/placeholder.png',
       title: 'about.hero.title',
       titleHighlight: 'about.hero.titleHighlight',
-      description: 'about.hero.description',
-      objectPosition: 'center 30%'
+      description: 'about.hero.description'
+      // objectPosition: 'center 30%'
     }
   ],
   height: { xs: 400, sm: 500, md: 600 },
@@ -23,18 +23,18 @@ export const timelineData = {
   captionKey: 'about.timeline.caption',
   sections: [
     {
-      titleKey: 'about.timeline.started.title',
-      descriptionKey: 'about.timeline.started.description',
+      titleKey: 'about.timeline.1.title',
+      descriptionKey: 'about.timeline.1.description',
       image: '/assets/temp/placeholder.png'
     },
     {
-      titleKey: 'about.timeline.experience.title',
-      descriptionKey: 'about.timeline.experience.description',
+      titleKey: 'about.timeline.2.title',
+      descriptionKey: 'about.timeline.2.description',
       image: '/assets/temp/placeholder.png'
     },
     {
-      titleKey: 'about.timeline.lftworks.title',
-      descriptionKey: 'about.timeline.lftworks.description',
+      titleKey: 'about.timeline.3.title',
+      descriptionKey: 'about.timeline.3.description',
       image: '/assets/temp/placeholder.png'
     }
   ]
@@ -52,4 +52,13 @@ export const teamData = {
       email: 'info@lft-works.nl'
     }
   ]
+};
+
+export const ctaData = {
+  headingKey: 'about.cta.heading',
+  descriptionKey: 'about.cta.description',
+  primaryBtn: {
+    children: 'about.cta.button',
+    href: '/contact'
+  }
 };

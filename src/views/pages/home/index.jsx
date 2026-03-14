@@ -11,7 +11,7 @@ import useDataThemeMode from '@/hooks/useDataThemeMode';
 import useTranslation from '@/hooks/useTranslation';
 
 // @data
-import { heroSlides, servicesData, aboutTeaserData, processData, clienteleData, ctaData } from './data';
+import { heroSlides, servicesData, aboutTeaserData, processData, clienteleData, testimonialData, ctaData } from './data';
 
 /***************************  HOME PAGE  ***************************/
 
@@ -61,8 +61,8 @@ export default function HomePage() {
             props: translatedProcessData
           },
           {
-            importFunc: () => import('@/blocks/clientele').then((module) => ({ default: module.Clientele2 })),
-            props: translatedClienteleData
+            importFunc: () => import('@/blocks/testimonial').then((module) => ({ default: module.Testimonial6 })),
+            props: testimonialData
           },
           {
             importFunc: () => import('@/blocks/cta').then((module) => ({ default: module.Cta1 })),

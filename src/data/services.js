@@ -21,39 +21,34 @@ export const services = [
     relatedCategories: ['plc-software']
   },
   {
-    slug: 'schakelkast-engineering',
-    titleKey: 'services.schakelkastEngineering.title',
+    slug: 'panelenbouw',
+    titleKey: 'services.panelenbouw.title',
     icon: 'tabler-plug',
     heroImage: '/assets/temp/placeholder.png',
-    descriptionTitleKey: 'services.schakelkastEngineering.descriptionTitle',
-    descriptionKey: 'services.schakelkastEngineering.description',
+    descriptionTitleKey: 'services.panelenbouw.descriptionTitle',
+    descriptionKey: 'services.panelenbouw.description',
     descriptionImage: '/assets/temp/placeholder.png',
     features: [
-      'services.schakelkastEngineering.features.f1',
-      'services.schakelkastEngineering.features.f2',
-      'services.schakelkastEngineering.features.f3',
-      'services.schakelkastEngineering.features.f4',
-      'services.schakelkastEngineering.features.f5'
+      'services.panelenbouw.features.f1',
+      'services.panelenbouw.features.f2',
+      'services.panelenbouw.features.f3',
+      'services.panelenbouw.features.f4',
+      'services.panelenbouw.features.f5'
     ],
     featureImage: '/assets/temp/placeholder.png',
-    relatedCategories: ['schakelkast-engineering']
+    relatedCategories: ['panelenbouw']
   },
   {
-    slug: 'elektrische-installatie',
-    titleKey: 'services.elektrischeInstallatie.title',
+    slug: 'advies',
+    titleKey: 'services.advies.title',
     icon: 'tabler-bolt',
     heroImage: '/assets/temp/placeholder.png',
-    descriptionTitleKey: 'services.elektrischeInstallatie.descriptionTitle',
-    descriptionKey: 'services.elektrischeInstallatie.description',
+    descriptionTitleKey: 'services.advies.descriptionTitle',
+    descriptionKey: 'services.advies.description',
     descriptionImage: '/assets/temp/placeholder.png',
-    features: [
-      'services.elektrischeInstallatie.features.f1',
-      'services.elektrischeInstallatie.features.f2',
-      'services.elektrischeInstallatie.features.f3',
-      'services.elektrischeInstallatie.features.f4'
-    ],
+    features: ['services.advies.features.f1', 'services.advies.features.f2', 'services.advies.features.f3', 'services.advies.features.f4'],
     featureImage: '/assets/temp/placeholder.png',
-    relatedCategories: ['elektrische-installatie']
+    relatedCategories: ['advies']
   },
   {
     slug: 'aandrijving-configuratie',

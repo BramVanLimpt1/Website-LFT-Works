@@ -12,7 +12,7 @@ export default function palette(mode) {
   const textPrimaryDark = '#E2E2E5'; // on surface
   const textSecondaryDark = '#C2C7CE'; // on surface variant
   const dividerDark = '#42474E'; // outline variant
-  const backgroundDark = '#0A1628'; // LFT-Works brand dark (deep navy)
+  const backgroundDark = '#000000'; // LFT-Works brand dark (deep navy)
 
   const lightPalette = {
     primary: {
