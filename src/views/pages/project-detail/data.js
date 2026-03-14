@@ -27,7 +27,7 @@ export const createProjectDetailSections = (project) => {
   // Project Detail Description (long-form)
   if (project.detailDescriptionKey) {
     sections.push({
-      importFunc: () => import('@/blocks/about').then((m) => ({ default: m.OurStory1 })),
+      importFunc: () => import('@/blocks/about').then((m) => ({ default: m.Introduction })),
       props: {
         headingKey: 'projects.whatWeDidForThisProject',
         highlightKey: '',

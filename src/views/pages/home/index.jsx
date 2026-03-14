@@ -53,7 +53,7 @@ export default function HomePage() {
             props: servicesData
           },
           {
-            importFunc: () => import('@/blocks/about').then((module) => ({ default: module.About4 })),
+            importFunc: () => import('@/blocks/about').then((module) => ({ default: module.Teaser })),
             props: aboutTeaserData
           },
           {

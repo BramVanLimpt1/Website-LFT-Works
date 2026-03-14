@@ -96,7 +96,7 @@ export default function Footer3({ logo, logoTextKey, socialLinks = [], infoItems
     <Stack
       sx={{ alignItems: { xs: 'center', md: 'flex-start' }, justifyContent: 'space-between', gap: 4, height: 1, pb: { xs: 2.5, md: 0 } }}
     >
-      <Stack spacing={1.75} sx={{ alignItems: { xs: 'center', md: 'flex-start' }, textAlign: { xs: 'center', md: 'right' } }}>
+      <Stack spacing={1.75} sx={{ alignItems: { xs: 'center', md: 'flex-start' }, textAlign: { xs: 'center', md: 'left' } }}>
         {logoEl}
         {logoTextKey && (
           <Typography variant="body2" sx={{ maxWidth: 280 }}>

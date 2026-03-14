@@ -15,9 +15,9 @@ import useTranslation from '@/hooks/useTranslation';
 
 import { SECTION_COMMON_PY } from '@/utils/constant';
 
-/***************************  ABOUT - OUR STORY 1  ***************************/
+/***************************  ABOUT - INTRODUCTION  ***************************/
 
-export default function OurStory1({ headingKey, highlightKey, paragraphKeys }) {
+export default function Introduction({ headingKey, highlightKey, paragraphKeys }) {
   const { t } = useTranslation();
 
   return (
@@ -48,7 +48,7 @@ export default function OurStory1({ headingKey, highlightKey, paragraphKeys }) {
   );
 }
 
-OurStory1.propTypes = {
+Introduction.propTypes = {
   headingKey: PropTypes.string.isRequired,
   highlightKey: PropTypes.string.isRequired,
   paragraphKeys: PropTypes.arrayOf(PropTypes.string).isRequired

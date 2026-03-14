@@ -21,7 +21,7 @@ export default function AboutPage() {
       <HeroSlideshow {...heroData} />
       <LazySection
         sections={[
-          { importFunc: () => import('@/blocks/about').then((m) => ({ default: m.OurStory1 })), props: ourStoryData },
+          { importFunc: () => import('@/blocks/about').then((m) => ({ default: m.Introduction })), props: ourStoryData },
           { importFunc: () => import('@/blocks/team').then((m) => ({ default: m.Team10 })), props: teamData },
           { importFunc: () => import('@/blocks/timeline').then((m) => ({ default: m.TimeLine1 })), props: timelineData },
           { importFunc: () => import('@/blocks/cta').then((m) => ({ default: m.Cta1 })), props: ctaData }

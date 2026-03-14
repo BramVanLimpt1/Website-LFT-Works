@@ -23,7 +23,7 @@ import { SECTION_COMMON_PY, BORDER_RADIUS } from '@/utils/constant';
 
 /***************************  ABOUT - 4  ***************************/
 
-export default function About4({ headingKey, highlightKey, captionKey, image, primaryBtn }) {
+export default function Teaser({ headingKey, highlightKey, captionKey, image, primaryBtn }) {
   const { t } = useTranslation();
 
   return (
@@ -68,7 +68,7 @@ export default function About4({ headingKey, highlightKey, captionKey, image, pr
   );
 }
 
-About4.propTypes = {
+Teaser.propTypes = {
   labelKey: PropTypes.string,
   headingKey: PropTypes.string,
   highlightKey: PropTypes.string,

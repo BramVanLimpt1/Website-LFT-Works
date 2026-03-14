@@ -13,29 +13,29 @@ export function LocalBusinessJsonLd() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
-    name: 'RoThi Bouw',
-    description: 'Timmerbedrijf gespecialiseerd in nieuwbouw, verbouwingen, dakwerk en afbouw in de regio Reusel, Eindhoven en Tilburg.',
-    url: 'https://www.rothibouw.nl',
-    logo: 'https://www.rothibouw.nl/assets/logo/light.png',
+    name: 'LFT-Works',
+    description: 'Industriele automatisering, PLC software, en panelenbouw in regio Reusel, Eindhoven en Tilburg.',
+    url: 'https://www.lft-works.nl',
+    logo: 'https://www.lft-works.nl/assets/logo/light.png',
 
     // -- Location --
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '', // TODO: Fill in street address
+      streetAddress: 'Kattenbos 11',
       addressLocality: 'Reusel',
       addressRegion: 'Noord-Brabant',
-      postalCode: '', // TODO: Fill in postcode
+      postalCode: '5541 PJ',
       addressCountry: 'NL'
     },
 
     // -- Contact --
     telephone: '', // TODO: Fill in phone number (format: +31 6 12345678)
-    email: 'info@rothibouw.nl',
+    email: 'info@lft-works.nl',
 
     // -- Coordinates (for Google Maps) --
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 51.3609, // Reusel approximate
+      latitude: 51.3609,
       longitude: 5.1691
     },
 
@@ -69,29 +69,29 @@ export function LocalBusinessJsonLd() {
       itemListElement: [
         {
           '@type': 'Offer',
-          itemOffered: { '@type': 'Service', name: 'Nieuwbouw', description: 'Nieuwbouwprojecten voor particulier en zakelijk' }
+          itemOffered: { '@type': 'Service', name: 'PLC Software', description: 'Ontwikkeling en implementatie van PLC software' }
         },
         {
           '@type': 'Offer',
-          itemOffered: { '@type': 'Service', name: 'Verbouwingen', description: 'Renovatie en verbouwing van woningen en bedrijfspanden' }
+          itemOffered: { '@type': 'Service', name: 'Panelenbouw', description: 'Constructie en installatie van elektrische panelen' }
         },
         {
           '@type': 'Offer',
-          itemOffered: { '@type': 'Service', name: 'Dakwerk', description: 'Dakreparatie, dakvernieuwing en dakisolatie' }
+          itemOffered: { '@type': 'Service', name: 'Advies', description: 'Professioneel advies op het gebied van industriële automatisering' }
         },
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Afbouw & afwerking',
-            description: 'Binnenwanden, plafonds, kozijnen en ander afbouwwerk'
+            name: 'Machine ombouw',
+            description: 'Aanpassen, vervangen en optimaliseren van bestaande machines voor langere levensduur en betere prestaties'
           }
         }
       ]
     },
 
     // -- Business details --
-    foundingDate: '2023',
+    foundingDate: '2014',
     priceRange: '$$', // General indicator
     currenciesAccepted: 'EUR',
     paymentAccepted: 'Bankoverschrijving',
@@ -109,9 +109,9 @@ export function LocalBusinessJsonLd() {
     // -- Social / profiles --
     sameAs: [
       // TODO: Add social media URLs
-      // 'https://www.facebook.com/rothibouw',
-      // 'https://www.instagram.com/rothibouw',
-      // 'https://www.linkedin.com/company/rothibouw',
+      // 'https://www.facebook.com/lftworks',
+      // 'https://www.instagram.com/lftworks',
+      // 'https://www.linkedin.com/company/lftworks',
     ]
   };
 

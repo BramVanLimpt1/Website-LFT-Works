@@ -1,2 +1,2 @@
-export { default as About4 } from './About4';
-export { default as OurStory1 } from './OurStory1';
+export { default as Teaser } from './Teaser';
+export { default as Introduction } from './Introduction';
